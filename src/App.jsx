@@ -3,7 +3,6 @@ import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Home from "./Pages/Home";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
-import { alertHandler } from "./components/customAlert";
 import Header from "./components/Header";
 import "./app.css";
 import SideNav from "./components/SideNav";
@@ -30,6 +29,8 @@ import SavedPlaylistData from "./Pages/SavedPlaylistData";
 import SearchResult from "./Pages/SearchResult";
 import Profile from "./Pages/Profile";
 import { useSelector } from "react-redux";
+import { alertHandler } from "./components/customAlert";
+
 
 export const serverUrl = "http://localhost:8080";
 
