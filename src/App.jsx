@@ -10,7 +10,7 @@ import VideoDetail from "./Pages/VideoDetail";
 import { getUser } from "./Hooks/getCurrentUser";
 import { getAllContentData } from "./Hooks/getAllContentData";
 import CreatePage from "./Pages/CreatePage";
-import UploadVideo from "./Pages/uploadVideo";
+import UploadVideo from "./Pages/UploadVideo";
 import UploadShorts from "./Pages/UploadShorts";
 import UploadCommunityPost from "./Pages/UploadCommunityPost";
 import UploadPlaylistVideos from "./Pages/UploadPlaylistVideos";
@@ -29,7 +29,7 @@ import SavedPlaylistData from "./Pages/SavedPlaylistData";
 import SearchResult from "./Pages/SearchResult";
 import Profile from "./Pages/Profile";
 import { useSelector } from "react-redux";
-import { alertHandler } from "./components/customAlert";
+import { alertHandler } from "./components/CustomAlert";
 
 
 export const serverUrl = "http://localhost:8080";
