@@ -33,7 +33,8 @@ import CustomAlert, { alertHandler } from "./components/CustomAlert";
 
 
 
-export const serverUrl = "http://localhost:8080";
+// export const serverUrl = "http://localhost:8080";
+export const serverUrl = "https://yt-backend-ecru.vercel.app";
 
 const ProtectRoute = ({ userData, children }) => {
   console.log(userData);
