@@ -15,7 +15,7 @@ import { FcGoogle } from "react-icons/fc";
 import { IoIosLogOut } from "react-icons/io";
 import { serverUrl } from "../App";
 import axios from "axios";
-import { alertHandler } from "./customAlert";
+import { alertHandler } from "./CustomAlert";
 import { useDispatch, useSelector } from "react-redux";
 import { getUserData } from "../redux/userSlice";
 import { signInWithPopup } from "firebase/auth";

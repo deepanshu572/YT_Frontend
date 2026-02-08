@@ -4,7 +4,7 @@ import SideNav from "../components/SideNav";
 import axios from "axios";
 import { serverUrl } from "../App";
 import Loader from "../childComponent/Loader";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 const UploadCommunityPost = () => {

@@ -6,7 +6,7 @@ import axios from "axios";
 import { serverUrl } from "../App";
 import { useNavigate } from "react-router";
 import { getUser } from "../Hooks/getCurrentUser";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 
 const UploadPlaylistVideos = () => {
   const channel = useSelector((state) => state?.usersData?.channelData);

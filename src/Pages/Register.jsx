@@ -7,7 +7,7 @@ import { FaRegEye } from "react-icons/fa";
 import axios from "axios";
 import { serverUrl } from "../App";
 import { MdOutlineCloudUpload } from "react-icons/md";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 import { useDispatch } from "react-redux";
 import { getUserData } from "../redux/userSlice";
 import Loader from "../childComponent/Loader";

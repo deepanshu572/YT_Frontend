@@ -9,7 +9,7 @@ import { MdGroupAdd } from "react-icons/md";
 import { PiVideo } from "react-icons/pi";
 import { LuListVideo } from "react-icons/lu";
 import { BiLike } from "react-icons/bi";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 import axios from "axios";
 import { serverUrl } from "../App";
 import { getUserData } from "../redux/userSlice";

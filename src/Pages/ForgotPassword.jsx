@@ -5,7 +5,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { GoVerified } from "react-icons/go";
 import axios from "axios";
 import { serverUrl } from "../App";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");

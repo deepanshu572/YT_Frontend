@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import axios from "axios";
 import { serverUrl } from "../App";
-import { alertHandler } from "../components/customAlert";
+import { alertHandler } from "../components/CustomAlert";
 import { useDispatch, useSelector } from "react-redux";
 import { getChannelData, getUserData } from "../redux/userSlice";
 import Loader from "../childComponent/Loader";
