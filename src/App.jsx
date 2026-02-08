@@ -29,7 +29,8 @@ import SavedPlaylistData from "./Pages/SavedPlaylistData";
 import SearchResult from "./Pages/SearchResult";
 import Profile from "./Pages/Profile";
 import { useSelector } from "react-redux";
-import { alertHandler } from "./components/CustomAlert";
+import CustomAlert, { alertHandler } from "./components/CustomAlert";
+
 
 
 export const serverUrl = "http://localhost:8080";
